@@ -1,0 +1,22 @@
+body {
+            background-color: #212529;
+            color: white;
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-img-top {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: rgb(28, 32, 35);
+        }

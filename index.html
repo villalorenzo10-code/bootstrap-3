@@ -1,0 +1,743 @@
+```html
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineBlog</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    
+</head>
+
+<body>
+
+    <!--  NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+
+        <div class="container">
+
+            <a class="navbar-brand text-warning" href="#">
+                CineBlog
+            </a>
+
+            <!-- Bottone menu mobile -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCineBlog">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Menu -->
+
+            <div class="collapse navbar-collapse" id="navbarCineBlog">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Chi siamo
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown">
+
+                            Lavora con noi
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#form">
+                                    Candidati
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#faq">
+                                    FAQ
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <!-- cerca -->
+
+                <form class="d-flex">
+
+                    <input class="form-control me-2"
+                        type="search"
+                        placeholder="Cerca film">
+
+                    <button class="btn btn-outline-warning"
+                        type="submit">
+
+                        Cerca
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!--  HEADER  -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center text-center"
+                style="height: 15vh;">
+
+                <div class="col-12">
+
+                    <h1 class="text-warning">
+                        CineBlog
+                    </h1>
+
+                    <p>
+                        Il tuo blog dedicato al mondo del cinema
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!--  CARDS  -->
+
+    <main>
+
+        <section class="container">
+
+            <div class="row g-4">
+
+
+                <!-- CARD 1 -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card bg-dark text-white border-secondary">
+
+                        <a href="https://www.rottentomatoes.com/m/hitch"
+                            target="_blank">
+
+                            <img
+                                src="https://m.media-amazon.com/images/S/pv-target-images/e99283d022c4ba72ed35d00f2825a57f503248b375cb34a56b58746ea036ac5c.jpg"
+                                class="card-img-top"
+                                alt="Hitch">
+
+                        </a>
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title text-warning">
+                                HITCH
+                            </h3>
+
+                            <p class="card-text">
+                                Alex Hitchens, detto Hitch, aiuta uomini
+                                impacciati a conquistare le donne,
+                                diventando un vero e proprio consulente
+                                sentimentale.
+                            </p>
+
+                            <a href="https://www.rottentomatoes.com/m/hitch"
+                                target="_blank"
+                                class="btn btn-warning mt-auto">
+
+                                Scopri il film
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card bg-dark text-white border-secondary">
+
+                        <a href="https://www.rottentomatoes.com/m/avengers_endgame"
+                            target="_blank">
+
+                            <img
+                                src="https://static.wikia.nocookie.net/marveldatabase/images/9/9a/Avengers_Endgame_poster_002.jpg"
+                                class="card-img-top"
+                                alt="Avengers Endgame">
+
+                        </a>
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title text-warning">
+                                Avengers Endgame
+                            </h3>
+
+                            <p class="card-text">
+                                Il film Marvel che conclude la saga
+                                dell'Infinity War. Gli Avengers devono
+                                affrontare le conseguenze dello scontro
+                                con Thanos.
+                            </p>
+
+                            <a href="https://www.rottentomatoes.com/m/avengers_endgame"
+                                target="_blank"
+                                class="btn btn-warning mt-auto">
+
+                                Scopri il film
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 3 -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card bg-dark text-white border-secondary">
+
+                        <a href="https://www.rottentomatoes.com/m/mission_impossible_ghost_protocol"
+                            target="_blank">
+
+                            <img
+                                src="https://pad.mymovies.it/filmclub/2010/03/209/locandina.jpg"
+                                class="card-img-top"
+                                alt="Mission Impossible">
+
+                        </a>
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title text-warning">
+                                Mission Impossible
+                            </h3>
+
+                            <p class="card-text">
+                                Un agente dell'IMF viene coinvolto in una
+                                missione pericolosa durante la quale dovrà
+                                affrontare numerosi ostacoli.
+                            </p>
+
+                            <a href="https://www.rottentomatoes.com/m/mission_impossible_ghost_protocol"
+                                target="_blank"
+                                class="btn btn-warning mt-auto">
+
+                                Scopri il film
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--  carosello  -->
+
+        <section class="container mt-5">
+
+            <h2 class="text-warning text-center mb-4">
+                Film consigliati
+            </h2>
+
+            <div id="carouselCineBlog"
+                class="carousel slide"
+                data-bs-ride="carousel">
+
+                <!-- Indicatori -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button"
+                        data-bs-target="#carouselCineBlog"
+                        data-bs-slide-to="0"
+                        class="active">
+                    </button>
+
+                    <button type="button"
+                        data-bs-target="#carouselCineBlog"
+                        data-bs-slide-to="1">
+                    </button>
+
+                    <button type="button"
+                        data-bs-target="#carouselCineBlog"
+                        data-bs-slide-to="2">
+                    </button>
+
+                </div>
+
+
+                <!-- Immagini -->
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img
+                            src="https://m.media-amazon.com/images/S/pv-target-images/e99283d022c4ba72ed35d00f2825a57f503248b375cb34a56b58746ea036ac5c.jpg"
+                            class="d-block w-100"
+                            alt="Hitch">
+
+                        <div class="carousel-caption d-none d-md-block">
+
+                            <h3>
+                                HITCH
+                            </h3>
+
+                            <p>
+                                Una commedia romantica ambientata a New York.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img
+                            src="https://static.wikia.nocookie.net/marveldatabase/images/9/9a/Avengers_Endgame_poster_002.jpg"
+                            class="d-block w-100"
+                            alt="Avengers Endgame">
+
+                        <div class="carousel-caption d-none d-md-block">
+
+                            <h3>
+                                Avengers Endgame
+                            </h3>
+
+                            <p>
+                                L'epica conclusione della saga degli Avengers.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+
+                        <img
+                            src="https://pad.mymovies.it/filmclub/2010/03/209/locandina.jpg"
+                            class="d-block w-100"
+                            alt="Mission Impossible">
+
+                        <div class="carousel-caption d-none d-md-block">
+
+                            <h3>
+                                Mission Impossible
+                            </h3>
+
+                            <p>
+                                Azione, spionaggio e missioni impossibili.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Freccia precedente -->
+
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselCineBlog"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                    <span class="visually-hidden">
+                        Precedente
+                    </span>
+
+                </button>
+
+
+                <!-- Freccia successiva -->
+
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselCineBlog"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                    <span class="visually-hidden">
+                        Successivo
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!--  FAQ   -->
+
+        <section class="container mt-5 mb-5"
+            id="faq">
+
+            <h2 class="text-warning text-center mb-4">
+                Frequently Asked Questions
+            </h2>
+
+
+            <div class="accordion"
+                id="accordionFAQ">
+
+
+                <!-- FAQ 1 -->
+
+                <div class="accordion-item bg-dark text-white">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqOne">
+
+                            Che cos'è CineBlog?
+
+                        </button>
+
+                    </h2>
+
+                    <div id="faqOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionFAQ">
+
+                        <div class="accordion-body">
+
+                            CineBlog è un sito dedicato al mondo del
+                            cinema, dove è possibile trovare informazioni,
+                            recensioni e consigli sui film.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+
+                <div class="accordion-item bg-dark text-white">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqTwo">
+
+                            Posso proporre un film?
+
+                        </button>
+
+                    </h2>
+
+                    <div id="faqTwo"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFAQ">
+
+                        <div class="accordion-body">
+
+                            Certamente! Puoi contattarci attraverso
+                            il modulo presente nella sezione
+                            "Lavora con noi".
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+
+                <div class="accordion-item bg-dark text-white">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqThree">
+
+                            Le recensioni sono gratuite?
+
+                        </button>
+
+                    </h2>
+
+                    <div id="faqThree"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFAQ">
+
+                        <div class="accordion-body">
+
+                            Sì, tutti i contenuti presenti sul blog
+                            possono essere consultati gratuitamente.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!--  FORM  -->
+
+        <section class="container mt-5"
+            id="form">
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+
+                    <h2 class="text-warning mb-4">
+                        Lavora con noi
+                    </h2>
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Inserisci email">
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Inserisci password">
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="btn btn-warning"
+                            data-bs-toggle="modal"
+                            data-bs-target="#successModal">
+
+                            Invia
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!--  MODAL  -->
+
+    <div class="modal fade"
+        id="successModal">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content bg-dark text-white">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title text-warning">
+                        Messaggio
+                    </h5>
+
+                    <button
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Grazie per averci contattato! 🚀
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button
+                        class="btn btn-warning"
+                        data-bs-dismiss="modal">
+
+                        Chiudi
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--  FOOTER  -->
+
+    <footer class="mt-5 py-4">
+
+        <div class="container">
+
+            <div class="row text-center text-md-start">
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <h5 class="text-warning">
+                        CineBlog
+                    </h5>
+
+                    <p>
+                        P.IVA: 12345678901
+                    </p>
+
+                    <p>
+                        Proprietario: Lorenzo Villa
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <h5 class="text-warning">
+                        Info
+                    </h5>
+
+                    <p>
+                        Chi siamo
+                    </p>
+
+                    <p>
+                        Contatti
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3 text-md-end">
+
+                    <h5 class="text-warning">
+                        Seguici
+                    </h5>
+
+                    <i class="bi bi-instagram fs-3 me-3"></i>
+
+                    <i class="bi bi-facebook fs-3 me-3"></i>
+
+                    <i class="bi bi-twitter-x fs-3"></i>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+            <p class="text-center">
+                © 2026 CineBlog
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
+
